@@ -10,11 +10,14 @@ public class EliminarBoton : MonoBehaviour
     void Update()
     {
         
+        
+       
+    }
+    public void clikDereho()
+    {
         if (Input.GetMouseButtonDown(1))
         {
             elB.SetActive(true);
-            
         }
-       
     }
 }
