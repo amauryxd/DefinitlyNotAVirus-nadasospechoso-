@@ -8,5 +8,6 @@ public class ElminarObjeto : MonoBehaviour
     public void desaparecer() {
         elB.SetActive(false);
         gameObject.SetActive(false);
+        BajarBarra.QuitarBarra(0.1f);
     }
 }
