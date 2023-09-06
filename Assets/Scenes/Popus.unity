@@ -434,8 +434,15 @@ MonoBehaviour:
   waves:
   - name: unu
     Popu: {fileID: 7440564562156876257, guid: 42abac2fa5f0785488fed35a03a45c34, type: 3}
-    count: 2
+    count: 1
     rate: 5
+  - name: owo
+    Popu: {fileID: 7440564562156876257, guid: 42abac2fa5f0785488fed35a03a45c34, type: 3}
+    count: 1
+    rate: 5
+  spawnPoints:
+  - {fileID: 49665937}
+  - {fileID: 1106291432}
   timebetweebwaves: 5
   wavecountdown: 0
 --- !u!1 &1765743768

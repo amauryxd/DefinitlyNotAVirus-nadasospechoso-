@@ -18,11 +18,14 @@ public class Spawner : MonoBehaviour
     }
     public Wave[] waves;
     private int nextwave = 0;
+
+    public Transform[] spawnPoints;
     public float timebetweebwaves = 5f;
     public float wavecountdown;
     private float searchcountdown = 1f;
     private Spawnstate state = Spawnstate.counting;
     private void Start()
+
     {
         wavecountdown = timebetweebwaves;
        
@@ -56,9 +59,8 @@ public class Spawner : MonoBehaviour
         }
         
 
-       
-
     }
+    
     void popuscerrado()
     {
         
@@ -69,7 +71,11 @@ public class Spawner : MonoBehaviour
         {
             nextwave = 0;
         }
-        nextwave++;
+        else
+        {
+            nextwave++;
+        }
+       
     }
     bool popuabierto()
     {
@@ -101,9 +107,9 @@ public class Spawner : MonoBehaviour
     }
     void spawnpopup (Transform _popus)
     {
+        Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
+        Instantiate(_popus, _sp.position, _sp.rotation);
        
-        Instantiate(_popus, transform.position, transform.rotation);
-        
         Debug.Log("spawning enemy");
     }
 }
