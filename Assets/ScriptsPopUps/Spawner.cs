@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Spawner : MonoBehaviour
 {
+   
+   
     public enum Spawnstate {spawning, waiting, counting}
     [System.Serializable]
-public class Wave
+    public class Wave
     {
         public string name;
         public Transform Popu;
@@ -16,68 +18,92 @@ public class Wave
     }
     public Wave[] waves;
     private int nextwave = 0;
-    public float timebetweebwaves = 60f;
+    public float timebetweebwaves = 5f;
     public float wavecountdown;
     private float searchcountdown = 1f;
     private Spawnstate state = Spawnstate.counting;
     private void Start()
     {
         wavecountdown = timebetweebwaves;
+       
         
     }
     private void Update()
     {
         if(state == Spawnstate.waiting)
-        { 
-            if(!popuabierto())
+        {
+            
+            if (!popuabierto())
             {
-
+                popuscerrado();
+                Debug.Log("wave compleated");
             }
             else
             {
                 return;
             }
         }
-        if(wavecountdown <= 0)
+        if (wavecountdown <= 0)
         {
-            if(state != Spawnstate.spawning)
+            if (state != Spawnstate.spawning)
             {
                 StartCoroutine(spawnwave(waves[nextwave]));
             }
-            else
-            {
-                wavecountdown -= Time.deltaTime;
-            }
         }
-        bool popuabierto()
+        else
         {
-            searchcountdown -= Time.deltaTime;
-            if(searchcountdown <= 0f)
-            {
-                searchcountdown = 1f;
-                if (GameObject.FindGameObjectWithTag("Popup") == null)
-                {
-                    return false;
-                }
-            }
-          
-            return true;
+            wavecountdown -= Time.deltaTime;
         }
+        
+
+       
+
     }
-    
-    IEnumerator spawnwave (Wave wave)
+    void popuscerrado()
     {
-        state = Spawnstate.spawning;
-        for(int i = 0; i<wave.count; i++)
+        
+        state = Spawnstate.counting;
+        wavecountdown = timebetweebwaves;
+
+        if (nextwave + 1 > waves.Length - 1)
         {
-            spawnpopup(wave.Popu);
-            yield return new WaitForSeconds(1f / wave.rate);
+            nextwave = 0;
+        }
+        nextwave++;
+    }
+    bool popuabierto()
+    {
+        searchcountdown -= Time.deltaTime;
+        if (searchcountdown <= 0f)
+        {
+           
+            searchcountdown = 1f;
+            if (GameObject.FindGameObjectWithTag("Popup") == null)
+            {
+                return false;
+            }
+        }
+     
+        return true;
+    }
+
+    IEnumerator spawnwave (Wave _wave)
+    {
+        Debug.Log("spawning wave" + _wave.name);
+        state = Spawnstate.spawning;
+        for(int i = 0; i< _wave.count; i++)
+        {
+            spawnpopup(_wave.Popu);
+            yield return new WaitForSeconds(1f / _wave.rate);
         }
         state = Spawnstate.waiting;
         yield break;
     }
     void spawnpopup (Transform _popus)
     {
+       
         Instantiate(_popus, transform.position, transform.rotation);
+        
+        Debug.Log("spawning enemy");
     }
 }
