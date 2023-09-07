@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f31e54f947aef34981a1d39f00e2905, type: 3}
+  m_Name: 5
+  m_EditorClassIdentifier: 
+  textoNarrativo: bueno tienes una breve idea no te voy a explicar que hueva la verdad
+    ahi aprendes sobre la marcha
+  respuestaUno: "ok (joder que compa\xF1ero mas odioso )"
+  respuestaDos: 'ya que '
+  arrayReferencias: 00000000090000000a000000
+  quitarBotones: 0
+  cambiarEscena: 0
+  indiceEscena: 0
