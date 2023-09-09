@@ -2861,7 +2861,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098614008}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 133, y: 688, z: -17.69654}
+  m_LocalPosition: {x: 412, y: 688, z: -17.69654}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4518,7 +4518,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popusimg: {fileID: 0}
-  splist: []
+  splist:
+  - {fileID: -197989840, guid: 6c3ab10b7626f0946b89a16e74d70085, type: 3}
+  - {fileID: 966183240, guid: 6c3ab10b7626f0946b89a16e74d70085, type: 3}
+  - {fileID: 967817402, guid: 6c3ab10b7626f0946b89a16e74d70085, type: 3}
   fotos: {fileID: 0}
 --- !u!1 &2074499643
 GameObject:
@@ -4779,7 +4782,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2138240029}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1228, y: 278, z: -17.69654}
+  m_LocalPosition: {x: 1358, y: 278, z: -17.69654}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
