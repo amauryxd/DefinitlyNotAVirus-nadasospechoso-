@@ -8,7 +8,10 @@ public class Canvass : MonoBehaviour
     public GameObject uwucavas;
     void Update()
     {
-        popus = GameObject.FindGameObjectWithTag("Popup");
-        popus.transform.SetParent(uwucavas.transform);
+        if (GameObject.FindGameObjectWithTag("Popup"))
+        {
+            popus = GameObject.FindGameObjectWithTag("Popup");
+            popus.transform.SetParent(uwucavas.transform);
+        }
     }
 }
