@@ -11,17 +11,17 @@ public class DraggObjct : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("begin drag");
+        //Debug.Log("begin drag");
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("dragging");
+        //Debug.Log("dragging");
         transform.position = Input.mousePosition;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("end drag");
+        //Debug.Log("end drag");
     }
 }

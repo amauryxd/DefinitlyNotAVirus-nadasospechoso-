@@ -20,6 +20,7 @@ public class AumentarBarra : MonoBehaviour
     void Start()
     {
         ActBarra(1);
+        progAct = 0;
     }
 
     // Update is called once per frame

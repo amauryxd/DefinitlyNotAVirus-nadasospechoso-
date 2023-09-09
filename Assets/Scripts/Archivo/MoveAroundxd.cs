@@ -5,10 +5,11 @@ using UnityEngine;
 public class MoveAroundxd : MonoBehaviour
 {
     public float TpEmpezar;
+    public float Trepeat;
     public GameObject archivo;
     private void Start()
     {
-        InvokeRepeating("movepora", TpEmpezar, 7.0f);
+        InvokeRepeating("movepora", TpEmpezar, Trepeat);
     }
 
     private void movepora()
