@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f31e54f947aef34981a1d39f00e2905, type: 3}
   m_Name: 3
   m_EditorClassIdentifier: 
-  textoNarrativo: Bomba, vi la foto que publicaste en MySpace, te ves relinda si
-    me preguntas.
+  textoNarrativo: Cool, vi la foto que publicaste en MySpace, te ves relinda si me
+    preguntas.
   respuestaUno: Gracias, mi chico me quiso tomar una foto.
   respuestaDos: "Solo una peque\xF1a cita que tuve el domingo."
   respuestaTres: Si, como dije, tengo cosas que hacer.

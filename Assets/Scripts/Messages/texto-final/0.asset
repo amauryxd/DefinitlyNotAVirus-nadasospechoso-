@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f31e54f947aef34981a1d39f00e2905, type: 3}
   m_Name: 0
   m_EditorClassIdentifier: 
-  textoNarrativo: ' Perdona fui a visitar a un pibe.'
+  textoNarrativo: ' Perdona fui a visitar a un amigo.'
   respuestaUno: Que tipo de link fue ese?
   respuestaDos: 
   respuestaTres: 

@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f31e54f947aef34981a1d39f00e2905, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  textoNarrativo: 'Oh!, asi que la otro pibe es tu pareja?
+  textoNarrativo: 'Oh!, asi que la otro chico es tu pareja?
 
 '
   respuestaUno: Asi es, se llama Noe.
-  respuestaDos: Claro, Noe es repiola, ojala lo conozcas.
+  respuestaDos: Claro, Noe es buena gente, ojala lo conozcas.
   respuestaTres: Noe? claro hemos salido desde hace tiempo.
   arrayReferencias: 00000000050000000500000005000000
   quitarBotones: 0
