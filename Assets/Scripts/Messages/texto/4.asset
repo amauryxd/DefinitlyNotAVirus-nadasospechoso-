@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f31e54f947aef34981a1d39f00e2905, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  textoNarrativo: "enserio te lo tengo que explicar compa\xF1ero estupid ah perdon
-    bueno tenemos que viajar entre dimensiones y hacer favores a los demas "
-  respuestaUno: aaa ok
-  respuestaDos: bueno pero el insulto fue muy de a gratis
-  arrayReferencias: 000000000700000007000000
+  textoNarrativo: 'Oh!, asi que la otro pibe es tu pareja?
+
+'
+  respuestaUno: Asi es, se llama Noe.
+  respuestaDos: Claro, Noe es repiola, ojala lo conozcas.
+  respuestaTres: Noe? claro hemos salido desde hace tiempo.
+  arrayReferencias: 00000000050000000500000005000000
   quitarBotones: 0
-  cambiarEscena: 0
-  indiceEscena: 0

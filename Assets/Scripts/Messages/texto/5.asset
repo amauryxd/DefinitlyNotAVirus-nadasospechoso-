@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f31e54f947aef34981a1d39f00e2905, type: 3}
   m_Name: 5
   m_EditorClassIdentifier: 
-  textoNarrativo: bueno tienes una breve idea no te voy a explicar que hueva la verdad
-    ahi aprendes sobre la marcha
-  respuestaUno: "ok (joder que compa\xF1ero mas odioso )"
-  respuestaDos: 'ya que '
-  arrayReferencias: 00000000090000000a000000
+  textoNarrativo: '(Desconectado)
+
+
+
+    (Presiona "E" para continuar)'
+  respuestaUno: Hola?
+  respuestaDos: Hola?
+  respuestaTres: Hola?
+  arrayReferencias: 00000000050000000500000005000000
   quitarBotones: 0
-  cambiarEscena: 0
-  indiceEscena: 0

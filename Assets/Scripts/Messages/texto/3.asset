@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f31e54f947aef34981a1d39f00e2905, type: 3}
   m_Name: 3
   m_EditorClassIdentifier: 
-  textoNarrativo: exactamente debemos hacer favores al las demas dimensiones para
-    asi cuidarlas eres muy listo la verdad
-  respuestaUno: ehhh gracias
-  respuestaDos: lose
-  arrayReferencias: 000000000600000006000000
+  textoNarrativo: Bomba, vi la foto que publicaste en MySpace, te ves relinda si
+    me preguntas.
+  respuestaUno: Gracias, mi chico me quiso tomar una foto.
+  respuestaDos: "Solo una peque\xF1a cita que tuve el domingo."
+  respuestaTres: Si, como dije, tengo cosas que hacer.
+  arrayReferencias: 00000000040000000400000004000000
   quitarBotones: 0
-  cambiarEscena: 0
-  indiceEscena: 0

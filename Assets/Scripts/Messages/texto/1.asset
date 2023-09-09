@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f31e54f947aef34981a1d39f00e2905, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
-  textoNarrativo: oh veo que eres una persona con respeto bueno sabes que vamos hacer
-    en este trabajo
-  respuestaUno: si (los salto)
-  respuestaDos: no me podrias explicar
-  arrayReferencias: 000000000300000004000000
+  textoNarrativo: hahaha, ya se, solo os estaba probando. Sabes que me gusta jugar
+    con vos, como siempre.
+  respuestaUno: 3 meses de estarme probando, seguro que es divertido...
+  respuestaDos: KAHSDHSD ntp, no me importa.
+  respuestaTres: 'Supongo que ahora se pq me siento cansada ultimamente. '
+  arrayReferencias: 00000000020000000200000002000000
   quitarBotones: 0
-  cambiarEscena: 0
-  indiceEscena: 0

@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f31e54f947aef34981a1d39f00e2905, type: 3}
   m_Name: 2
   m_EditorClassIdentifier: 
-  textoNarrativo: bueno me dejaste una mala impresion de ti pero bueno sabes que
-    vamos hacer en este trabajo
-  respuestaUno: no
-  respuestaDos: talvez
-  arrayReferencias: 000000000400000005000000
+  textoNarrativo: Hmmm, todo joya? he sentido que me has estado ignorando ultimamente,
+    quien sabe, siento como si ya no hablaramos como antes soliamos.
+  respuestaUno: Todo joya, solo me siento un poco cansada, perdona.
+  respuestaDos: He salido mucho que no he tenido tiempo para textear, perdona.
+  respuestaTres: Tengo cosas que hacer.
+  arrayReferencias: 00000000030000000300000003000000
   quitarBotones: 0
-  cambiarEscena: 0
-  indiceEscena: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-public class controltexto : MonoBehaviour
+public class Options : MonoBehaviour
 {
     [SerializeField] plantillatexto plantilla;
     [SerializeField] plantillatexto[] arrayPlantillas;
@@ -12,6 +12,7 @@ public class controltexto : MonoBehaviour
     [SerializeField] TextMeshProUGUI textoNarracion;
     [SerializeField] TextMeshProUGUI textoRespuestaUno;
     [SerializeField] TextMeshProUGUI textoRespuestaDos;
+    [SerializeField] TextMeshProUGUI textoRespuestaTres;
 
     [SerializeField] GameObject[] arrayBotones;
     [SerializeField] string cuartos;
@@ -28,6 +29,7 @@ public class controltexto : MonoBehaviour
         textoNarracion.text = plantilla.textoNarrativo;
         textoRespuestaUno.text = plantilla.respuestaUno;
         textoRespuestaDos.text = plantilla.respuestaDos;
+        textoRespuestaTres.text = plantilla.respuestaTres;
     }
 
     public void controlBotones(int indice)
@@ -63,7 +65,7 @@ public class controltexto : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene(cuartos);
+            SceneManager.LoadScene("BasadoEnHechosReales");
         }
     }
 
