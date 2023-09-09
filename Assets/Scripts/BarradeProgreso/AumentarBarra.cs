@@ -5,25 +5,36 @@ using UnityEngine.UI;
 
 public class AumentarBarra : MonoBehaviour
 {
-    public float barraFinal=1;
-    public static float progAct=0;
-    public float velAumento;
+    public static float progAct;
+
+    public float target = 0;
+
+    public float speed = 0.5f;
+
     public Slider slider;
+
+    private void Awake()
+    {
+        slider = gameObject.GetComponent<Slider>();
+    }
     void Start()
     {
-        
+        ActBarra(1);
     }
 
     // Update is called once per frame
     void Update()
     {
-        progAct = Mathf.Lerp(progAct, barraFinal, Time.deltaTime * velAumento);
+        if (slider.value < target) 
+        {
+            progAct += speed * Time.deltaTime;
 
-        ActBarra();
+            slider.value = progAct;
+        }
     }
 
-    public void ActBarra()
+    public void ActBarra(float newProgress)
     {
-        slider.value = progAct;
+        target = slider.value + newProgress;
     }
 }
