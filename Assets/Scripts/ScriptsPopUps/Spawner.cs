@@ -39,7 +39,7 @@ public class Spawner : MonoBehaviour
             if (!popuabierto())
             {
                 popuscerrado();
-                Debug.Log("wave compleated");
+                //Debug.Log("wave compleated");
             }
             else
             {
@@ -95,7 +95,7 @@ public class Spawner : MonoBehaviour
 
     IEnumerator spawnwave (Wave _wave)
     {
-        Debug.Log("spawning wave" + _wave.name);
+        //Debug.Log("spawning wave" + _wave.name);
         state = Spawnstate.spawning;
         for(int i = 0; i< _wave.count; i++)
         {
@@ -110,6 +110,6 @@ public class Spawner : MonoBehaviour
         Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
         Instantiate(_popus, _sp.position, _sp.rotation);
        
-        Debug.Log("spawning enemy");
+        //Debug.Log("spawning enemy");
     }
 }

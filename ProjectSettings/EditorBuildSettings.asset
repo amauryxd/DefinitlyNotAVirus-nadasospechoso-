@@ -6,7 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Start.unity
+    guid: 0edaa97970d1aaf48be1aeb36278bd74
+  - enabled: 1
+    path: Assets/Scenes/Dialogos-inicio.unity
+    guid: b1608b5d22fd81541b28d0b1de35e19f
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/BasadoEnHechosReales.unity
