@@ -89,6 +89,9 @@ public class AudioManagerss : MonoBehaviour
                 sus.SetActive(false);
                 finxd.SetActive(true);
                 break;
+            case "menu":
+                finxd.SetActive(false);
+                break;
         }
         
     }

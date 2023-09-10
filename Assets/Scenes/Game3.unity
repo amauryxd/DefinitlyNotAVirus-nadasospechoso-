@@ -2896,9 +2896,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   popusimg: {fileID: 0}
   splist:
-  - {fileID: -197989840, guid: 6c3ab10b7626f0946b89a16e74d70085, type: 3}
-  - {fileID: 966183240, guid: 6c3ab10b7626f0946b89a16e74d70085, type: 3}
-  - {fileID: 967817402, guid: 6c3ab10b7626f0946b89a16e74d70085, type: 3}
+  - {fileID: 21300000, guid: 28d22566964ab464fa4891bf21455e65, type: 3}
+  - {fileID: 21300000, guid: cb908f4085539094c930dddf49a82dab, type: 3}
+  - {fileID: 21300000, guid: 48ee012a22cf9c54fb33406b3dfce206, type: 3}
   fotos: {fileID: 0}
 --- !u!114 &1180349956
 MonoBehaviour:
