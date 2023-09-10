@@ -10,7 +10,7 @@ public class AudioManagerss : MonoBehaviour
     bool notifb = false;
     private AudioSource clickis;
     private string scenea;
-
+    public AudioClip[] cambio;
     public GameObject son1, son2, son3, son4, sus, finxd,storm,fan;
     public void Awake()
     {
@@ -71,6 +71,7 @@ public class AudioManagerss : MonoBehaviour
             case "Game2":
                 son1.SetActive(true);
                 son2.SetActive(true);
+                Notif.clip = cambio[0];
                 break;
             case "Game3":
                 son1.SetActive(false);
@@ -78,12 +79,14 @@ public class AudioManagerss : MonoBehaviour
                 son3.SetActive(true);
                 son4.SetActive(true);
                 fan.SetActive(false);
+                Notif.clip = cambio[1];
                 break;
             case "Game4":
                 son3.SetActive(false);
                 son4.SetActive(false);
                 sus.SetActive(true);
                 storm.SetActive(false);
+                Notif.clip = cambio[2];
                 break;
             case "GameOver":
                 sus.SetActive(false);
@@ -91,6 +94,7 @@ public class AudioManagerss : MonoBehaviour
                 break;
             case "menu":
                 finxd.SetActive(false);
+                Notif.clip = cambio[3];
                 break;
         }
         
