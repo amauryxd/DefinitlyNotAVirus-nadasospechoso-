@@ -9,10 +9,12 @@ public class PorEmpezar : MonoBehaviour
     public GameObject barra;
     public GameObject popus;
     public Animator anim;
+    public NextScene next;
     void Start()
     {
         Invoke("barrabarra", timepobarra);
         Invoke("popuspo", timepopopus);
+        Invoke("rigoberto", 8f);
     }
 
     private void barrabarra()
@@ -23,5 +25,11 @@ public class PorEmpezar : MonoBehaviour
     private void popuspo()
     {
         popus.SetActive(true);
+    }
+
+    private void rigoberto()
+    {
+
+        next.enabled = true;
     }
 }

@@ -465,7 +465,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00007692729, y: 46.011612}
+  m_AnchoredPosition: {x: -0.00007692729, y: 46.011997}
   m_SizeDelta: {x: -36.9609, y: 636.3048}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &238039983
@@ -2655,7 +2655,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1106671182}
   m_HandleRect: {fileID: 1106671181}
   m_Direction: 2
-  m_Value: -0.0000039795664
+  m_Value: -0.000011938699
   m_Size: 0.9276897
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3198,6 +3198,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 656599087294246633, guid: 1dcabe10b31e778408c75d1aaf1067d2, type: 3}
+      propertyPath: m_TagString
+      value: ACT4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1778387137185873153, guid: 1dcabe10b31e778408c75d1aaf1067d2, type: 3}
+      propertyPath: m_TagString
+      value: ACT2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2258865794980498093, guid: 1dcabe10b31e778408c75d1aaf1067d2, type: 3}
+      propertyPath: m_TagString
+      value: AAAA
+      objectReference: {fileID: 0}
     - target: {fileID: 2624977674554149093, guid: 1dcabe10b31e778408c75d1aaf1067d2, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3245,6 +3257,14 @@ PrefabInstance:
     - target: {fileID: 2624977674554149095, guid: 1dcabe10b31e778408c75d1aaf1067d2, type: 3}
       propertyPath: m_Name
       value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 7690156487864632623, guid: 1dcabe10b31e778408c75d1aaf1067d2, type: 3}
+      propertyPath: m_TagString
+      value: ACT1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9216808757601579620, guid: 1dcabe10b31e778408c75d1aaf1067d2, type: 3}
+      propertyPath: m_TagString
+      value: ACT3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dcabe10b31e778408c75d1aaf1067d2, type: 3}

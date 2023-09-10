@@ -2875,7 +2875,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180349953}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ced6ab1387a751f45b9a8c4ea4cc78f1, type: 3}
   m_Name: 
@@ -2917,6 +2917,7 @@ MonoBehaviour:
   barra: {fileID: 318307632}
   popus: {fileID: 1930837776}
   anim: {fileID: 1760783785}
+  next: {fileID: 1180349954}
 --- !u!114 &1180349957
 MonoBehaviour:
   m_ObjectHideFlags: 0

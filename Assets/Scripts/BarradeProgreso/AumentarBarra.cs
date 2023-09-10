@@ -16,6 +16,7 @@ public class AumentarBarra : MonoBehaviour
     private void Awake()
     {
         slider = gameObject.GetComponent<Slider>();
+        progAct = 0;
     }
     void Start()
     {
@@ -32,6 +33,7 @@ public class AumentarBarra : MonoBehaviour
 
             slider.value = progAct;
         }
+        
     }
 
     public void ActBarra(float newProgress)

@@ -9,15 +9,10 @@ public class NextScene : MonoBehaviour
     public string queesena;
     void Update()
     {
-       if(AumentarBarra.progAct > 0.98)
+        if (AumentarBarra.progAct >= 1)
         {
-            //poner sondio aca malevolo
-            //nose mover algo en pantalla
-            Invoke("cambiosce", tiempocambio);
+            SceneManager.LoadScene(queesena);
         }
     }
-    void cambiosce()
-    {
-        SceneManager.LoadScene(queesena);
-    }
+    
 }

@@ -11,6 +11,11 @@ TagManager:
   - CLICK
   - canvas
   - AUDIOMIX
+  - ACT1
+  - ACT2
+  - ACT3
+  - ACT4
+  - AAAA
   layers:
   - Default
   - TransparentFX
