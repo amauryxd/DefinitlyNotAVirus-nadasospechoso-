@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Popup
   - Popupimg
+  - GOTA
+  - NOTIF
+  - CLICK
+  - canvas
+  - AUDIOMIX
   layers:
   - Default
   - TransparentFX

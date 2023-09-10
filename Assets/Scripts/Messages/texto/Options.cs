@@ -65,7 +65,7 @@ public class Options : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene("BasadoEnHechosReales");
+            SceneManager.LoadScene("Game");
         }
     }
 
