@@ -1953,7 +1953,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77.7, y: 265.7}
+  m_AnchoredPosition: {x: -75.054, y: 282}
   m_SizeDelta: {x: 305.4, y: 40.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &986993404
@@ -1976,7 +1976,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Brije Anti-virus
+  m_text: "S\xC9 DONDE EST\xC1S"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a8e395bdeaff9054b99dbe7a2063e0a3, type: 2}
   m_sharedMaterial: {fileID: 1557969466164152128, guid: a8e395bdeaff9054b99dbe7a2063e0a3, type: 2}
@@ -2455,8 +2455,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Se ha detectado una carga inusual de archivos que compromenten su ubicaci\xF3n.\nFavor
-    de eliminar cualquier archivo que aparesca en su escritorio."
+  m_text: "S\xC9 DONDE EST\xC1S S\xC9 DONDE EST\xC1S S\xC9 DONDE EST\xC1S S\xC9 DONDE
+    EST\xC1S S\xC9 DONDE EST\xC1S S\xC9 DONDE EST\xC1S S\xC9 DONDE EST\xC1S S\xC9
+    DONDE EST\xC1S S\xC9 DONDE EST\xC1S S\xC9 DONDE EST\xC1S S\xC9 DONDE EST\xC1S
+    S\xC9 DONDE EST\xC1S S\xC9 DONDE EST\xC1S S\xC9 DONDE EST\xC1S S\xC9 DONDE EST\xC1S
+    S\xC9 DONDE EST\xC1S S\xC9 DONDE EST\xC1S"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a8e395bdeaff9054b99dbe7a2063e0a3, type: 2}
   m_sharedMaterial: {fileID: 1557969466164152128, guid: a8e395bdeaff9054b99dbe7a2063e0a3, type: 2}
@@ -2612,7 +2615,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xA1UBICACI\xD3N COMPROMETIDA!"
+  m_text: "S\xC9 DONDE EST\xC1S S\xC9 DONDE EST\xC1S S\xC9 DONDE EST\xC1S S\xC9 DONDE
+    EST\xC1S S\xC9 DONDE EST\xC1S S\xC9 DONDE EST\xC1S S\xC9 DONDE EST\xC1S S\xC9
+    DONDE EST\xC1S"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a8e395bdeaff9054b99dbe7a2063e0a3, type: 2}
   m_sharedMaterial: {fileID: 1557969466164152128, guid: a8e395bdeaff9054b99dbe7a2063e0a3, type: 2}
