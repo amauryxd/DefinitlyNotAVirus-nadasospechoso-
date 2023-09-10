@@ -459,9 +459,9 @@ MonoBehaviour:
   dialogueText: {fileID: 938025829}
   lines:
   - Esta historia esta basada en la experiencia de una de los desarrolladores.
-  - Continue bajo su riesgo.
+  - ("E" para continuar)
   textSpeed: 0.05
-  sceneName: 
+  sceneName: Credits
 --- !u!1 &1186847058
 GameObject:
   m_ObjectHideFlags: 0
