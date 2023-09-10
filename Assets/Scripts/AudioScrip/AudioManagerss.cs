@@ -92,7 +92,7 @@ public class AudioManagerss : MonoBehaviour
                 sus.SetActive(false);
                 finxd.SetActive(true);
                 break;
-            case "menu":
+            case "Start":
                 finxd.SetActive(false);
                 Notif.clip = cambio[3];
                 break;

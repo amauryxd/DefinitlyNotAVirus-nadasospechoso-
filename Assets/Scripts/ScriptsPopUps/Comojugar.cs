@@ -14,7 +14,7 @@ public class Comojugar : MonoBehaviour
 
  
 
-    public void Trigger()
+    public void cambioxdxd()
     {
         
         if(image.activeInHierarchy == false )
