@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class Imagen : MonoBehaviour
 {
     public int acc;
-    
+    public Button btn1, btn2, btn3;
+
     public GameObject image;
     void Start()
     {
@@ -21,6 +22,9 @@ public class Imagen : MonoBehaviour
         if(image.activeInHierarchy == false && acc >= 4) 
         {
             image.SetActive(true);
+            btn1.interactable = false;
+            btn2.interactable = false;
+            btn3.interactable = false;
         }
         else
         {
