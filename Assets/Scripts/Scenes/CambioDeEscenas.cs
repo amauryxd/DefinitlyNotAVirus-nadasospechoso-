@@ -7,12 +7,12 @@ public class CambioDeEscenas : MonoBehaviour
 {
     public void toGame()
     {
-        //SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Dialogos-Inicio");
         Debug.Log("se supone que pasas al juego xd");
     }
     public void toCredits()
     {
-        //SceneManager.LoadScene("creditos");
+        SceneManager.LoadScene("Credits");
         Debug.Log("deberias pasar a creditos");
     }
     public void toExit()
