@@ -11,7 +11,7 @@ public class AudioManagerss : MonoBehaviour
     private AudioSource clickis;
     private string scenea;
 
-    public GameObject son1, son2, son3, son4, sus, finxd;
+    public GameObject son1, son2, son3, son4, sus, finxd,storm,fan;
     public void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -77,11 +77,13 @@ public class AudioManagerss : MonoBehaviour
                 son1.SetActive(false);
                 son3.SetActive(true);
                 son4.SetActive(true);
+                fan.SetActive(false);
                 break;
             case "Game4":
                 son3.SetActive(false);
                 son4.SetActive(false);
                 sus.SetActive(true);
+                storm.SetActive(false);
                 break;
             case "GameOver":
                 sus.SetActive(false);

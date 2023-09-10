@@ -445,6 +445,8 @@ MonoBehaviour:
   son4: {fileID: 656599087294246633}
   sus: {fileID: 2258865794980498093}
   finxd: {fileID: 8691915933972110431}
+  storm: {fileID: 2624977675842972075}
+  fan: {fileID: 2624977675780519042}
 --- !u!1 &2624977675449708321
 GameObject:
   m_ObjectHideFlags: 0
