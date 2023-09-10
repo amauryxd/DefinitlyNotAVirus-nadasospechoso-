@@ -24,11 +24,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Game3.unity
     guid: 99710b0baae828e4fb1d49229d11c56e
   - enabled: 1
-    path: Assets/Scenes/BasadoEnHechosReales.unity
-    guid: 87a9ceac08078af4fb2f73353f33651d
-  - enabled: 1
     path: Assets/Scenes/Game4.unity
     guid: 47d2b2f98a39c584ea6e4ca58a32b486
+  - enabled: 1
+    path: Assets/Scenes/BasadoEnHechosReales.unity
+    guid: 87a9ceac08078af4fb2f73353f33651d
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: f72edeb6a4d2ed04fa6341c75d394524
