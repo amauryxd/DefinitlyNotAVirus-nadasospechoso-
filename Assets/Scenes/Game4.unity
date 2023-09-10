@@ -4312,7 +4312,7 @@ GameObject:
   - component: {fileID: 1679222644}
   - component: {fileID: 1679222649}
   - component: {fileID: 1679222650}
-  - component: {fileID: 1679222651}
+  - component: {fileID: 1679222652}
   m_Layer: 0
   m_Name: GameManagment
   m_TagString: Untagged
@@ -4355,7 +4355,7 @@ MonoBehaviour:
   barra: {fileID: 60654693}
   popus: {fileID: 1584590778}
   anim: {fileID: 1650622103}
-  next: {fileID: 0}
+  next: {fileID: 1679222652}
 --- !u!114 &1679222646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4424,18 +4424,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   volmenSFX: {fileID: 24100000, guid: 4b79e205adae1f34c9138fb433a7a7d8, type: 2}
---- !u!114 &1679222651
+--- !u!114 &1679222652
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679222642}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7f57ff69d46d154783bc1f91eb13c47, type: 3}
+  m_Script: {fileID: 11500000, guid: ced6ab1387a751f45b9a8c4ea4cc78f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tiempocambio: 5
+  queesena: DialogosF
 --- !u!1 &1750836979
 GameObject:
   m_ObjectHideFlags: 0
