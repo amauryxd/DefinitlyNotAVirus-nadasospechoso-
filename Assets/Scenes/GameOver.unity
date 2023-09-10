@@ -1298,7 +1298,7 @@ MonoBehaviour:
   textoRespuestaUno: {fileID: 1366099903}
   arrayBotones:
   - {fileID: 319472781}
-  cuartos: 
+  cuartos: Credits
 --- !u!1 &768945234
 GameObject:
   m_ObjectHideFlags: 0
