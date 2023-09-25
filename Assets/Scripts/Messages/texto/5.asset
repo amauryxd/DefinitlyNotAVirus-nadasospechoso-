@@ -17,8 +17,8 @@ MonoBehaviour:
 
 
     (Presiona "E" para continuar)'
-  respuestaUno: Hola?
-  respuestaDos: Hola?
-  respuestaTres: Hola?
+  respuestaUno: ' '
+  respuestaDos: ' '
+  respuestaTres: ' '
   arrayReferencias: 00000000050000000500000005000000
   quitarBotones: 0
