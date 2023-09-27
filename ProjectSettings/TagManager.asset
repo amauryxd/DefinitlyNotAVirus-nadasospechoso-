@@ -16,6 +16,8 @@ TagManager:
   - ACT3
   - ACT4
   - AAAA
+  - Popupimg2
+  - Popupimg3
   layers:
   - Default
   - TransparentFX

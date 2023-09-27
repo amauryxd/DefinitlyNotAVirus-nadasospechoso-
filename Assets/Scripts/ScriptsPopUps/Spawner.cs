@@ -11,7 +11,7 @@ public class Spawner : MonoBehaviour
     public class Wave
     {
         public string name;
-        public Transform Popu;
+        public Transform[] Popu;
         public int count;
         public float rate;
 
@@ -105,11 +105,13 @@ public class Spawner : MonoBehaviour
         state = Spawnstate.waiting;
         yield break;
     }
-    void spawnpopup (Transform _popus)
+    void spawnpopup (Transform[] _popus)
     {
-        Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
-        Instantiate(_popus, _sp.position, _sp.rotation);
-       
+        //Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
+        //Instantiate(_popus, _sp.position, _sp.rotation);
+        Transform _sp= spawnPoints[0];
+        _sp.position = new Vector3(Random.Range(194, 1650), Random.Range(188, 865));
+        Instantiate(_popus[Random.Range(0,3)], _sp.position, _sp.rotation);
         //Debug.Log("spawning enemy");
     }
 }

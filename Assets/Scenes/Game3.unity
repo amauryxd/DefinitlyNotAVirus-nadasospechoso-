@@ -3004,7 +3004,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8aa9b783d768ae4b8c00db62800fd22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popusimg: {fileID: 0}
+  popusimg:
+  - {fileID: 0}
+  popusimg2: []
+  popusimg3: []
   splist:
   - {fileID: 21300000, guid: 28d22566964ab464fa4891bf21455e65, type: 3}
   - {fileID: 21300000, guid: cb908f4085539094c930dddf49a82dab, type: 3}
@@ -4206,7 +4209,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 038d678995faf494989ef3b3f74d9e06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popus: {fileID: 0}
+  popus:
+  - {fileID: 0}
   uwucavas: {fileID: 1835305387}
 --- !u!114 &1835305390
 MonoBehaviour:
@@ -4348,7 +4352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  archivo: {fileID: 0}
+  archivo: {fileID: 447451483}
 --- !u!114 &1839701313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4637,11 +4641,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waves:
   - name: unu
-    Popu: {fileID: 7440564562156876257, guid: 42abac2fa5f0785488fed35a03a45c34, type: 3}
+    Popu:
+    - {fileID: 7440564562156876257, guid: 4fbd7e9c25d065448ba677b901cb0a43, type: 3}
+    - {fileID: 7440564562156876257, guid: d567409a68196524baee7808b92f9989, type: 3}
+    - {fileID: 7440564562156876257, guid: 42abac2fa5f0785488fed35a03a45c34, type: 3}
     count: 1
     rate: 5
   - name: owo
-    Popu: {fileID: 7440564562156876257, guid: 42abac2fa5f0785488fed35a03a45c34, type: 3}
+    Popu:
+    - {fileID: 7440564562156876257, guid: 4fbd7e9c25d065448ba677b901cb0a43, type: 3}
+    - {fileID: 7440564562156876257, guid: d567409a68196524baee7808b92f9989, type: 3}
+    - {fileID: 7440564562156876257, guid: 42abac2fa5f0785488fed35a03a45c34, type: 3}
     count: 1
     rate: 5
   spawnPoints:
