@@ -369,8 +369,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: BASADO EN HECHOS REALES
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a8e395bdeaff9054b99dbe7a2063e0a3, type: 2}
-  m_sharedMaterial: {fileID: 1557969466164152128, guid: a8e395bdeaff9054b99dbe7a2063e0a3, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -400,7 +400,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 33
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
