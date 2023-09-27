@@ -4278,7 +4278,7 @@ MonoBehaviour:
     rate: 5
   - name: owo
     Popu: {fileID: 7440564562156876257, guid: 42abac2fa5f0785488fed35a03a45c34, type: 3}
-    count: 1
+    count: 8
     rate: 5
   spawnPoints:
   - {fileID: 1255625397}

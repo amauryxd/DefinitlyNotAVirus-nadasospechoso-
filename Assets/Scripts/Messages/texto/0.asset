@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f31e54f947aef34981a1d39f00e2905, type: 3}
   m_Name: 0
   m_EditorClassIdentifier: 
-  textoNarrativo: Hola :) A pasado mucho desde la ultima vez que hablamos.
+  textoNarrativo: Hola :) Ha pasado mucho desde la ultima vez que hablamos.
   respuestaUno: Nosotros literalmente hablamos ayer.
-  respuestaDos: haha ya se, 24 horas se sintieron como una eternidad.
-  respuestaTres: Estaba un poca cansada ayer, disculpame.
+  respuestaDos: jaja ya se, 24 horas se sintieron como una eternidad.
+  respuestaTres: Estaba un poco cansada ayer, disculpame.
   arrayReferencias: 00000000010000000100000001000000
   quitarBotones: 0
