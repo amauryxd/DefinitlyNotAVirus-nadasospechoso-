@@ -4278,13 +4278,13 @@ MonoBehaviour:
     - {fileID: 7440564562156876257, guid: 4fbd7e9c25d065448ba677b901cb0a43, type: 3}
     - {fileID: 7440564562156876257, guid: d567409a68196524baee7808b92f9989, type: 3}
     count: 10
-    rate: 0.5
+    rate: 1
   - name: owo
     Popu:
     - {fileID: 7440564562156876257, guid: 42abac2fa5f0785488fed35a03a45c34, type: 3}
     - {fileID: 7440564562156876257, guid: 4fbd7e9c25d065448ba677b901cb0a43, type: 3}
     - {fileID: 7440564562156876257, guid: d567409a68196524baee7808b92f9989, type: 3}
-    count: 130
+    count: 500
     rate: 50
   spawnPoints:
   - {fileID: 1255625397}
