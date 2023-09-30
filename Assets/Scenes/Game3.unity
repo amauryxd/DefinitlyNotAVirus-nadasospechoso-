@@ -1626,7 +1626,7 @@ GameObject:
   - component: {fileID: 447451490}
   m_Layer: 5
   m_Name: Archivo
-  m_TagString: Untagged
+  m_TagString: Archivo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4645,15 +4645,15 @@ MonoBehaviour:
     - {fileID: 7440564562156876257, guid: 4fbd7e9c25d065448ba677b901cb0a43, type: 3}
     - {fileID: 7440564562156876257, guid: d567409a68196524baee7808b92f9989, type: 3}
     - {fileID: 7440564562156876257, guid: 42abac2fa5f0785488fed35a03a45c34, type: 3}
-    count: 1
-    rate: 5
+    count: 40
+    rate: 0.6
   - name: owo
     Popu:
     - {fileID: 7440564562156876257, guid: 4fbd7e9c25d065448ba677b901cb0a43, type: 3}
     - {fileID: 7440564562156876257, guid: d567409a68196524baee7808b92f9989, type: 3}
     - {fileID: 7440564562156876257, guid: 42abac2fa5f0785488fed35a03a45c34, type: 3}
-    count: 1
-    rate: 5
+    count: 40
+    rate: 0.6
   spawnPoints:
   - {fileID: 933985788}
   - {fileID: 1453932981}
@@ -5249,6 +5249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c680de056db4de42b2a9f2350586c00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  go: {fileID: 0}
   anim: {fileID: 1670290993}
 --- !u!114 &2098960201
 MonoBehaviour:

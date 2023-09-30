@@ -18,6 +18,7 @@ TagManager:
   - AAAA
   - Popupimg2
   - Popupimg3
+  - Archivo
   layers:
   - Default
   - TransparentFX

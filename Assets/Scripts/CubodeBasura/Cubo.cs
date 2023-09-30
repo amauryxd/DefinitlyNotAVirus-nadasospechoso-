@@ -16,17 +16,24 @@ public class Cubo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        image.color = new Color(image.color.r, image.color.g, image.color.b, 1f);
-        //Debug.Log(archivo.transform.position);
-        if (archivo.transform.position.y > 867 && archivo.transform.position.y < 996 && archivo.transform.position.x > 65 && archivo.transform.position.x < 158)// && Input.GetMouseButton(0) == false) 
+        if (GameObject.FindGameObjectWithTag("Archivo"))
         {
-            
-
-           image.color = new Color(image.color.r, image.color.g, image.color.b, 0.5f);
-            
-            if (Input.GetMouseButton(0) == false)
+            image.color = new Color(image.color.r, image.color.g, image.color.b, 1f);
+            //Debug.Log(archivo.transform.position);
+            if (archivo.transform.position.y > 867 && archivo.transform.position.y < 996 && archivo.transform.position.x > 65 && archivo.transform.position.x < 158)// && Input.GetMouseButton(0) == false) 
             {
-                archivo.GetComponent<ElminarObjeto>().desaparecer();
+
+
+                image.color = new Color(image.color.r, image.color.g, image.color.b, 0.5f);
+                if (Input.GetMouseButton(0) == false)
+                {
+                    archivo.GetComponent<ElminarObjeto>().desaparecer();
+
+                }
+                else if(Input.GetMouseButton(0) == false)
+                {
+                    archivo.GetComponent<elminarobj2>().desaparecer();
+                }
             }
         }
     }

@@ -17,7 +17,6 @@ public class popusimage : MonoBehaviour
     {
         if (GameObject.FindGameObjectWithTag("Popupimg"))
         {
-            Debug.Log("popu1"); 
             popusimg = GameObject.FindGameObjectsWithTag("Popupimg");
             foreach (GameObject popuimg in popusimg)
             {
@@ -31,7 +30,6 @@ public class popusimage : MonoBehaviour
         }
         if (GameObject.FindGameObjectWithTag("Popupimg2"))
         {
-            Debug.Log("popu2");
             popusimg2 = GameObject.FindGameObjectsWithTag("Popupimg2");
             foreach (GameObject popuimg2 in popusimg2)
             {
@@ -46,7 +44,6 @@ public class popusimage : MonoBehaviour
         }
         if (GameObject.FindGameObjectWithTag("Popupimg3"))
         {
-            Debug.Log("popu3");
             popusimg3 = GameObject.FindGameObjectsWithTag("Popupimg3");
             foreach (GameObject popuimg3 in popusimg3)
             {
