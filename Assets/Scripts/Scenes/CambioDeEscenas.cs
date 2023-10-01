@@ -8,16 +8,16 @@ public class CambioDeEscenas : MonoBehaviour
     public void toGame()
     {
         SceneManager.LoadScene("Dialogos-Inicio");
-        Debug.Log("se supone que pasas al juego xd");
+        //Debug.Log("se supone que pasas al juego xd");
     }
     public void toCredits()
     {
         SceneManager.LoadScene("Credits");
-        Debug.Log("deberias pasar a creditos");
+        //Debug.Log("deberias pasar a creditos");
     }
     public void toExit()
     {
-        Debug.Log("saliste del juego xd");
+        //Debug.Log("saliste del juego xd");
         Application.Quit();
     }
 }

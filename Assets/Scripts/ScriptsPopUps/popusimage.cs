@@ -10,9 +10,6 @@ public class popusimage : MonoBehaviour
     public GameObject[] popusimg3;
     public Sprite[] splist;
     public Image fotos;
-    bool act = false;
-    bool act2 = false;
-    bool act3 = false;
     void Update()
     {
         if (GameObject.FindGameObjectWithTag("Popupimg"))
@@ -24,10 +21,6 @@ public class popusimage : MonoBehaviour
                     fotos.sprite = splist[0];
             }
         }
-        else
-        {
-            act = false;
-        }
         if (GameObject.FindGameObjectWithTag("Popupimg2"))
         {
             popusimg2 = GameObject.FindGameObjectsWithTag("Popupimg2");
@@ -37,10 +30,6 @@ public class popusimage : MonoBehaviour
                     fotos.sprite = splist[1];
 
             }
-        }
-        else
-        {
-            act2 = false;
         }
         if (GameObject.FindGameObjectWithTag("Popupimg3"))
         {
@@ -52,10 +41,6 @@ public class popusimage : MonoBehaviour
                     fotos.sprite = splist[2];
 
             }
-        }
-        else
-        {
-            act3 = false;
         }
     }
 }

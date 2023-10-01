@@ -7,7 +7,7 @@ public class AudioManagerss : MonoBehaviour
 {
     private AudioSource Gota;
     private AudioSource Notif;
-    bool notifb = false;
+    //bool notifb = false;
     private AudioSource clickis;
     private string scenea;
     public AudioClip[] cambio;
@@ -33,6 +33,7 @@ public class AudioManagerss : MonoBehaviour
         if (GameObject.FindGameObjectWithTag("NOTIF"))
         {
             Notif = GameObject.FindGameObjectWithTag("NOTIF").GetComponent<AudioSource>();
+            /*
             if (GameObject.FindGameObjectWithTag("Popup"))
             {
                 if (!notifb)
@@ -46,6 +47,7 @@ public class AudioManagerss : MonoBehaviour
             {
                 notifb = false;
             }
+            */
         }   
         
         if (GameObject.FindGameObjectWithTag("CLICK"))
@@ -75,7 +77,7 @@ public class AudioManagerss : MonoBehaviour
                 break;
             case "Game3":
                 son1.SetActive(false);
-                son1.SetActive(false);
+                son2.SetActive(false);
                 son3.SetActive(true);
                 son4.SetActive(true);
                 fan.SetActive(false);
@@ -88,7 +90,7 @@ public class AudioManagerss : MonoBehaviour
                 storm.SetActive(false);
                 Notif.clip = cambio[2];
                 break;
-            case "GameOver":
+            case "DialogosF":
                 sus.SetActive(false);
                 finxd.SetActive(true);
                 break;

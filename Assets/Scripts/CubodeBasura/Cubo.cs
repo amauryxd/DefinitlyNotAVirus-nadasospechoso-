@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class Cubo : MonoBehaviour
 {
     public Image image;
     public GameObject archivo;
+    public bool isGame4;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,12 +27,12 @@ public class Cubo : MonoBehaviour
 
 
                 image.color = new Color(image.color.r, image.color.g, image.color.b, 0.5f);
-                if (Input.GetMouseButton(0) == false)
+                if (Input.GetMouseButton(0) == false && !isGame4)
                 {
                     archivo.GetComponent<ElminarObjeto>().desaparecer();
 
                 }
-                else if(Input.GetMouseButton(0) == false)
+                if(Input.GetMouseButton(0) == false && isGame4)
                 {
                     archivo.GetComponent<elminarobj2>().desaparecer();
                 }
